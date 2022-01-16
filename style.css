@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #f1faee;
+}
+.mainContainer{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.appTitle{
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    background-color: #1d3557;
+    color:  #a8dadc;
+}
+
+#btnClear{
+    width: 50%;
+    margin-top: 5%;
+    background-color: #e63946; 
+    color: white;
+    font-size: 20px;
+    padding: 15px 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+   
+}
+#btnClear:hover{
+    background-color: #e63928;
+}
+@media screen and (max-width: 1200px){
+    #btnClear{
+        width: 60%;
+    }
+}
+#btnSubmit, 
+#btnClear{
+    cursor: pointer;
+}
+#btnSubmit:hover{
+    background-color: #34688B;
+}
+.inputGroupText{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #d9d9d9;
+    padding: 10px;
+}
+
+.textBox{
+    width: 30%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    padding: 11px;
+    border-color: #d9d9d9;
+}
+.submitButton{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #457b9d; 
+    border: none;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.list-group-items{
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.list-group-flush{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+}
+#message{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 2%;
+    width: 70%;
+}
